@@ -37,3 +37,36 @@ Perfect for learning **real-world full-stack development** and showcasing in you
 
 ## 📁 Project Structure
 
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Node.js
+- MongoDB (local or MongoDB Atlas)
+- npm / yarn
+
+---
+
+### 🔧 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/AyushWaghmare019/LiveChat-Web-Application.git
+cd LiveChat-Web-Application
+
+# Install backend dependencies
+cd backend
+npm install
+
+# Create a .env file in /backend with the following:
+# MONGO_URI=your_mongo_connection_string
+# JWT_SECRET=your_jwt_secret
+# PORT=5000
+
+# Start backend server
+npm start
+
+
