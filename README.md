@@ -69,4 +69,11 @@ npm install
 # Start backend server
 npm start
 
+# Open another terminal and install frontend dependencies
+cd frontend
+npm install
+
+# Start frontend
+npm run dev
+
 
